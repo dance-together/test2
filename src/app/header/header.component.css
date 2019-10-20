@@ -1,0 +1,33 @@
+header {
+    background: whitesmoke;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+  }
+  
+  header .logotype img {
+    height: 60px;
+    width: auto;
+  }
+  
+  header .nav-link {
+    color: black;
+    padding-bottom: 13px;
+    border-bottom: 2px solid whitesmoke;
+    -webkit-transition: ease-in-out .3s;
+    transition: ease-in-out .3s;
+  }
+  
+  header .nav-link:hover {
+    color: #5c5c5c;
+    border-bottom: 2px solid #ffa600;
+  }
+  
+  header .navbar-toggler {
+    border: none;
+  }
+  
+  header .navbar-toggler .toggle-menu {
+    font-size: 2rem;
+  }
+  /*# sourceMappingURL=header.component.css.map */
