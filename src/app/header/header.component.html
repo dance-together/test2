@@ -17,28 +17,36 @@
   
         <ul class="navbar-nav ">
   
+          <li class="nav-item mr-md-2 mr-lg-3">            
+            <input type="radio" name="tabs" id="tab1" checked/>
+            <label class="nav-link" for="tab1"  [routerLinkActiveOptions]="{ exact: true }"  routerLinkActive="active" routerLink="/home">Hem</label>
+          </li>
+  
+         
+          <li class="nav-item mr-md-2 mr-lg-3">            
+            <input type="radio" name="tabs" id="tab2" />
+            <label class="nav-link" for="tab2"  [routerLinkActiveOptions]="{ exact: true }"  routerLinkActive="active" routerLink="/treatment">Behandling</label>
+          </li>
           <li class="nav-item mr-md-2 mr-lg-3">
-            <a class="nav-link" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active" routerLink="/home">Hem</a>
+            <input type="radio" name="tabs" id="tab3" />
+            <label class="nav-link" for="tab3"  [routerLinkActiveOptions]="{ exact: true }"  routerLinkActive="active" routerLink="/treatment">Medial</label>
           </li>
   
           <li class="nav-item mr-md-2 mr-lg-3">
-            <a class="nav-link" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active"   routerLink="/treatment">Behandling</a>
-          </li>
-          <li class="nav-item mr-md-2 mr-lg-3">
-            <a class="nav-link" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active"   routerLink="/treatment">Medial</a>
+                    <input type="radio" name="tabs" id="tab4" />
+            <label class="nav-link" for="tab4"  [routerLinkActiveOptions]="{ exact: true }"  routerLinkActive="active" routerLink="/development">Utveckling</label>
           </li>
   
           <li class="nav-item mr-md-2 mr-lg-3">
-            <a class="nav-link" [routerLinkActiveOptions]="{ exact: true }"  routerLinkActive="active" routerLink="/development">Utveckling</a>
+            <input type="radio" name="tabs" id="tab5" />
+            <label class="nav-link" for="tab5"  [routerLinkActiveOptions]="{ exact: true }"  routerLinkActive="active" routerLink="/development">Dance together</label>
           </li>
   
           <li class="nav-item mr-md-2 mr-lg-3">
-            <a class="nav-link" [routerLinkActiveOptions]="{ exact: true }"  routerLinkActive="active" routerLink="/home">Dance togethr</a>
-          </li>
-  
-          <li class="nav-item mr-md-2 mr-lg-3">
-            <a class="nav-link" [routerLinkActiveOptions]="{ exact: true }"  routerLinkActive="active" routerLink="/contact">Kontakt</a>
-          </li>
+          
+            <input type="radio" name="tabs" id="tab6" />
+            <label class="nav-link" for="tab6"  [routerLinkActiveOptions]="{ exact: true }"  routerLinkActive="active" routerLink="/contact"> Kontakt</label>
+         </li>
   
         </ul>
       </div>
@@ -47,4 +55,6 @@
   
   </header>
   
-  
+<style>
+
+</style>
