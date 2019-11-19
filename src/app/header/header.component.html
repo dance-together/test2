@@ -2,12 +2,12 @@
 
   <nav class="navbar navbar-expand-md navbar-light">
     <div class="container">
-      <button class="navbar-toggler pr-4" type="button" data-toggle="collapse" data-target="#navbarNav"
+      <button class="navbar-toggler py-4 px-3" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="toggle-menu"><i class="fas fa-bars"></i></span>
+        <span class="toggle-menu"><i class="p fas fa-bars"></i></span>
       </button>
       <div class="row d-md-none pt-1 pb-2">
-        <img class="col" src="../../assets/logga-bred.jpg" alt="">
+        <img class="col" routerLink="/home" src="../../assets/logga-bred.jpg" alt="">
           <ul >
         <!-- <div class="button_cont" align="center"><a class="example_f" href="" target="_blank" rel="nofollow"><span>Dance together</span></a></div> -->
         <a class="col fill-button px-0  mt-1"  style="height: 60px; padding-top: 15px;">
@@ -21,7 +21,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
 
         <div class="logo-media d-none d-md-block mr-auto pt-2 pb-4">
-          <img src="../../assets/logga-bred.jpg"  alt="">
+          <img routerLink="/home" src="../../assets/logga-bred.jpg"  alt="">
         </div>
 
         <ul class="navbar-nav ">
@@ -77,6 +77,9 @@
 </header>
 
 <style>
+  button, img {
+    cursor: pointer;
+  }
 example_f {
    border-radius: 4px;
    background: linear-gradient(to right, #67b26b, #4ca2cb) !important;
