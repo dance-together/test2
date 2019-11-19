@@ -10,6 +10,8 @@ import { ContactComponent } from './contact/contact.component';
 import { TreatmentComponent } from './treatment/treatment.component';
 import { DevelopmentComponent } from './development/development.component';
 import { MedialComponent } from './medial/medial.component';
+import { MassageComponent } from './massage/massage.component';
+import { AlternativMedicinComponent } from './alternativ-medicin/alternativ-medicin.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { MedialComponent } from './medial/medial.component';
     ContactComponent,
     TreatmentComponent,
     DevelopmentComponent,
-    MedialComponent
+    MedialComponent,
+    MassageComponent,
+    AlternativMedicinComponent
   ],
   imports: [
     BrowserModule,
