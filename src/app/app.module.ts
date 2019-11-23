@@ -14,7 +14,7 @@ import { AlternativMedicinComponent } from './alternativ-medicin/alternativ-medi
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    AlternativMedicinComponent
+    AlternativMedicinComponent,
   ],
   imports: [
     BrowserModule,
