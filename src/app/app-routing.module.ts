@@ -3,7 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
-import { AlternativMedicinComponent } from './alternativ-medicin/alternativ-medicin.component';
+import { ContactComponent } from './contact/contact.component';
+//import { AlternativMedicinComponent } from './alternativ-medicin/alternativ-medicin.component';
 
 
 const routes: Routes = [
@@ -11,7 +12,8 @@ const routes: Routes = [
   {path:'header',component:HeaderComponent},
   {path:'header',component:FooterComponent},
   {path:'home',component:HomeComponent},
-  {path:'alternativ-medicin',component:AlternativMedicinComponent}
+ // {path:'alternativ-medicin',component:AlternativMedicinComponent}
+ {path:'contact', component:ContactComponent}
 ];
 
 @NgModule({
