@@ -7,6 +7,8 @@ import { DevelopmentComponent } from './development/development.component';
 import { MedialComponent } from './medial/medial.component';
 import { MassageComponent } from './massage/massage.component';
 import { AlternativMedicinComponent } from './alternativ-medicin/alternativ-medicin.component';
+import { CoachingComponent } from './coaching/coaching.component';
+import { LectureComponent } from './lecture/lecture.component';
 
 
 const routes: Routes = [
@@ -17,7 +19,9 @@ const routes: Routes = [
   { path:'treatment', component: TreatmentComponent},
   { path: 'massage', component:MassageComponent},
   {path: 'alternativ-medicin', component:AlternativMedicinComponent},
-  { path:'medial', component:MedialComponent}
+  { path:'medial', component:MedialComponent},
+  {path:'coaching',component:CoachingComponent},
+  {path:'lecture',component:LectureComponent}
 ];
 
 @NgModule({

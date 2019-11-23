@@ -12,6 +12,8 @@ import { DevelopmentComponent } from './development/development.component';
 import { MedialComponent } from './medial/medial.component';
 import { MassageComponent } from './massage/massage.component';
 import { AlternativMedicinComponent } from './alternativ-medicin/alternativ-medicin.component';
+import { LectureComponent } from './lecture/lecture.component';
+import { CoachingComponent } from './coaching/coaching.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { AlternativMedicinComponent } from './alternativ-medicin/alternativ-medi
     DevelopmentComponent,
     MedialComponent,
     MassageComponent,
-    AlternativMedicinComponent
+    AlternativMedicinComponent,
+    LectureComponent,
+    CoachingComponent
   ],
   imports: [
     BrowserModule,
