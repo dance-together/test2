@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { AlternativMedicinComponent } from './alternativ-medicin/alternativ-medicin.component';
 import { MassageComponent } from './massage/massage.component';
+import { MedialComponent } from './medial/medial.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { MassageComponent } from './massage/massage.component';
     HomeComponent,
     AlternativMedicinComponent,
     MassageComponent,
+    MedialComponent,
   ],
   imports: [
     BrowserModule,
