@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { AlternativMedicinComponent } from './alternativ-medicin/alternativ-medicin.component';
+import { MassageComponent } from './massage/massage.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { AlternativMedicinComponent } from './alternativ-medicin/alternativ-medi
     FooterComponent,
     HomeComponent,
     AlternativMedicinComponent,
+    MassageComponent,
   ],
   imports: [
     BrowserModule,
